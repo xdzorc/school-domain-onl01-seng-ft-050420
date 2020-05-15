@@ -24,7 +24,7 @@ class School
       
   def sort
     @roster.collect do |x, y|
-      y.sort
+      y.sort!
     end
   end
       

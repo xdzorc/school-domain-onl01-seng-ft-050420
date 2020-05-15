@@ -16,7 +16,13 @@ class School
    end
   end
   
-  
+  def grade(grade)
+    if @roster.has_key?(grade)
+      @roster[grade]
+    end
+  end
+      
+      
 
   
 end

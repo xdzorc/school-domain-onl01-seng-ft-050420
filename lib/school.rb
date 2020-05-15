@@ -22,8 +22,8 @@ class School
     end
   end
       
-  def sort(hash)
-    hash.collect do |x, y|
+  def sort
+    @roster.collect do |x, y|
       y.sort
     end
   end
